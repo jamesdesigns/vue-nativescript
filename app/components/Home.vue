@@ -9,6 +9,7 @@
                 <FormattedString>
                     <Span class="fa" text.decode="&#xf135; "/>
                     <Span :text="message"/>
+                    <Span :text="anotherMessage"/>
                 </FormattedString>
             </Label>
         </GridLayout>
@@ -20,6 +21,9 @@
         computed: {
             message() {
                 return "UTA Motion App";
+            }
+            anotherMessage() {
+                return "This just might work for us!"
             }
         }
     };
