@@ -1,15 +1,13 @@
 <template>
     <Page class="page">
         <ActionBar class="action-bar">
-            <Label class="action-bar-title" text="Home"></Label>
+            <Label class="action-bar-title" text="UTA Motion"></Label>
         </ActionBar>
-
-        <GridLayout>
+      <GridLayout>
             <Label class="info" horizontalAlignment="center" verticalAlignment="center">
                 <FormattedString>
                     <Span class="fa" text.decode="&#xf135; "/>
                     <Span :text="message"/>
-                    <Span :text="anotherMessage"/>
                 </FormattedString>
             </Label>
         </GridLayout>
@@ -20,10 +18,7 @@
     export default {
         computed: {
             message() {
-                return "UTA Motion App";
-            }
-            anotherMessage() {
-                return "This just might work for us!"
+                return "UTA Motion App - This just might work!";
             }
         }
     };
