@@ -18,7 +18,7 @@
     export default {
         computed: {
             message() {
-                return "UTA Motion App - This just might work!";
+                return "Where would you like to go?";
             }
         }
     };
